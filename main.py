@@ -4,7 +4,7 @@ from psycopg2 import Error
 try:
     # Connect to an existing database
     connection = psycopg2.connect(user="fergal_moriarty",
-                                  password="2JBYms8AGyQQmn6aRqybokCX85yGPn4X",
+                                  password="",
                                   host="172.31.19.144",
                                   port="5439",
                                   database="glovodwh_dev")
