@@ -1,1 +1,2 @@
-# first-docker is a docker app that connects to redhsit
+# first-docker 
+This is a docker app that connects to redhsit
