@@ -3,11 +3,11 @@ from psycopg2 import Error
 
 try:
     # Connect to an existing database
-    connection = psycopg2.connect(user="fergal_moriarty",
-                                  password="",
-                                  host="172.31.19.144",
-                                  port="5439",
-                                  database="glovodwh_dev")
+    connection = psycopg2.connect(user=KEY_DEV_USER,
+                                  password=KEY_DEV_PWD,
+                                  host=KEY_DEV_HOST,
+                                  port=KEY_DEV_PORT,
+                                  database=KEY_DEV_DATABASE) 
 
     # Create a cursor to perform database operations
     cursor = connection.cursor()
