@@ -15,7 +15,7 @@ RUN pip install psycopg2-binary
 # Here we put the file at the image root folder.
 COPY connect.py /
 COPY config.py /
-COPY database.ini /
+COPY database.ini / 
 
 # We need to define the command to launch when we are going to run the image.
 # We use the keyword 'CMD' to do that.
