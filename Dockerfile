@@ -3,7 +3,6 @@
 # In our example, we want import the python image.
 # So we write 'python' for the image name and 'latest' for the version.
 FROM python:latest
-RUN apt-get update && apt-get install
 RUN python -m pip install --upgrade pip
 RUN pip install psycopg2-binary
 
